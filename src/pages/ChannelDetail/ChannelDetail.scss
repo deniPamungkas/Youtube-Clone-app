@@ -1,0 +1,26 @@
+.channel-detail{
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    .channel{
+        width: auto;
+        height: auto;
+        margin: auto;
+
+        img{
+            z-index: 1000;
+        }
+    }
+    .videos{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+
+        li{
+            list-style: none;
+        }
+    }
+}

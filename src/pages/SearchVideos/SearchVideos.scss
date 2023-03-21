@@ -1,0 +1,13 @@
+.container-V{
+    background-color: purple;
+    max-height: calc(100% - 80px);
+    .videos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        li{
+            list-style: none;
+        }
+    }
+}

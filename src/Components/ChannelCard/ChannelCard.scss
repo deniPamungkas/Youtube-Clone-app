@@ -1,0 +1,33 @@
+.channel-card{
+    width: 300px;
+    height: 300px;
+    padding-top: 40px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    .img-card{
+        margin: auto;
+        border-radius: 75px;
+        overflow: hidden;
+        width: 150px;
+        height: 150px;
+
+        img{
+            max-width: 150px;
+        }
+    }
+    .link{
+        text-decoration: none;
+        color: white;
+    }
+    .meta-card{
+        width: 300px;
+        height: 130px;
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
